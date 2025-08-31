@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    width: 80px;
+}
+
+body {
+    padding-top: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa-texto {
+    width: 40%;
+}
+
+h1 {
+    color: #333;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -50px
+}
+
+span {
+    color: #017143;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 13px;
+}
+
+button {
+    background: #017143;
+    /* Cor do Botão */
+    color: #fff;
+    /* Cor do Texto*/
+    border-radius: 40px;
+    /* Cantos arredondados */
+    border: none;
+    /* Remove a borda padrão */
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #07220c;
+}
+
+button:focus {
+    outline: 2px solid #07220c;
+    outline-offset: 4px;
+}
+
+
+.caixa-imagem {
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 125px;
+}
+
+.copo-starbucks {
+    width: 290px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.botao-menu:hover {
+    transform: translateY(-30px);
+}
+
+.circulo {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #017143;
+    clip-path: circle(650px at right 780px);
+    z-index: -1;
+    transition: background-color 0.5s ease;
+}
+
+@media (max-width:924px) {
+    .caixa-texto h1 span {
+        color: #07220c
+    }
+}
+
+@media (max-width: 840px) {
+    body {
+        padding: 15px;
+    }
+
+    .conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa-texto,
+    .caixa-imagem {
+        width: 100%;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caixa-texto button {
+        background-color: #ffffff;
+        color: #000;
+    }
+
+    .copo-starbucks {
+        max-width: 900px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+
+    span {
+        font-size: 48px;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+}
