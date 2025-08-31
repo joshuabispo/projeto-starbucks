@@ -8,7 +8,7 @@
 <br>
 <h2>Sobre o Projeto</h2>
 <br>
-<h4>Esse foi um projeto que fiz e aprendi no <a href="https://rodolfomori.com.br/devclub">DevClub</h3>
+<h4>Esse foi um projeto que fiz e aprendi no <a href="https://rodolfomori.com.br/devclub">DevClub</h4>
 <br>
 <p>- Tecnologias Utilizadas:</p>
 <img align="left" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
